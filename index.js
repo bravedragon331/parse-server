@@ -12,7 +12,7 @@ if (!databaseUri) {
 }
 
 var api = new ParseServer({
-  databaseURI: databaseUri || 'mongodb://gram:tHsrW5mz@ds057386.mlab.com:57386/gram-research-dev',
+  databaseURI: databaseUri || 'mongodb://ema:Souz1977@ds141484-a0.mlab.com:41484,ds141484-a1.mlab.com:41484/ema-gram?replicaSet=rs-ds141484',
   cloud: process.env.CLOUD_CODE_MAIN || __dirname + '/cloud/main.js',
   appId: process.env.APP_ID || 'Gram-Research-Server-Local',
   masterKey: process.env.MASTER_KEY || 'gramResearchLocalMastaKey', //Add your master key here. Keep it secret!
